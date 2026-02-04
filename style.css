@@ -1,0 +1,169 @@
+/* ========== Reset ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========== Body ========== */
+body {
+    background: #f5f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ========== Header ========== */
+header {
+    background: linear-gradient(135deg, #4e73df, #224abe);
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ========== Sections ========== */
+section {
+    background: white;
+    margin: 25px auto;
+    padding: 20px;
+    width: 85%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #224abe;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+/* ========== Forms ========== */
+input, select {
+    padding: 8px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background: #4e73df;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background: #2e59d9;
+}
+
+/* ========== Articles (Jobs/Internships) ========== */
+article {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    background: #f9fafc;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+article h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 8px;
+    background: #1cc88a;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+article a:hover {
+    background: #17a673;
+}
+
+/* ========== Table ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #4e73df;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* ========== List ========== */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* ========== Footer ========== */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
