@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Task Manager</title>
+</head>
+
+<body>
+
+<h2>Student Task Manager</h2>
+
+<!-- Task Input Section -->
+
+<input type="text" id="taskName" placeholder="Enter task name">
+
+<select id="priority">
+<option value="Low">Low</option>
+<option value="Medium">Medium</option>
+<option value="High">High</option>
+</select>
+
+<button onclick="addTask()">Add Task</button>
+
+<hr>
+
+<!-- Filter Section -->
+
+<button onclick="filterTasks('all')">Show All</button>
+<button onclick="filterTasks('completed')">Completed</button>
+<button onclick="filterTasks('pending')">Pending</button>
+
+<hr>
+
+<!-- Task List -->
+
+<ul id="taskList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
